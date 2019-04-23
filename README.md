@@ -1,3 +1,6 @@
+## 重要说明
+本项目前发现有兼容性问题，目前我们提供了另外解决方案，[这里查看](https://github.com/tencentyun/tls-sig-api-cs-cpp)。
+
 ## 说明
 本项目提供了 tls sig api 的 C# 原生版。
 TLSSigAPI.cs 为 api 的实现，TLSSigAPIDemo.cs 演示了如何使用。
