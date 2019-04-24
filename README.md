@@ -1,5 +1,5 @@
 ## 重要说明
-本项目前发现有兼容性问题，目前我们提供了另外解决方案，[这里查看](https://github.com/tencentyun/tls-sig-api-cs-cpp)。
+本项目前发现在 .NET Core 平台上有兼容性问题，如果有需要我们提供了另外解决方案，[这里查看](https://github.com/tencentyun/tls-sig-api-cs-cpp)。
 
 ## 说明
 本项目提供了 tls sig api 的 C# 原生版。
