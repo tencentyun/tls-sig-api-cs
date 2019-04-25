@@ -3,23 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tls-sig-api-cs", "tls-sig-api-cs\tls-sig-api-cs.csproj", "{987F9545-2C08-4990-9BAE-DE97D533E9D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tls-sig-api-cs", "tls-sig-api-cs\tls-sig-api-cs.csproj", "{22658B14-8F04-42F2-B740-39CDBF33997C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tls-sig-api-cs-test", "tls-sig-api-cs-test\tls-sig-api-cs-test.csproj", "{485E36CC-EC6D-4743-B396-F56817AEF58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tls-sig-api-cs-test-framework", "tls-sig-api-cs-test-framework\tls-sig-api-cs-test-framework.csproj", "{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tls-sig-api-cs-demo-core", "tls-sig-api-cs-demo-core\tls-sig-api-cs-demo-core.csproj", "{07E8083D-91BC-4370-9978-4D9E5BF4C543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{987F9545-2C08-4990-9BAE-DE97D533E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{987F9545-2C08-4990-9BAE-DE97D533E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{987F9545-2C08-4990-9BAE-DE97D533E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{987F9545-2C08-4990-9BAE-DE97D533E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Debug|x64.Build.0 = Debug|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Release|x64.ActiveCfg = Release|Any CPU
+		{22658B14-8F04-42F2-B740-39CDBF33997C}.Release|x64.Build.0 = Release|Any CPU
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Debug|x64.ActiveCfg = Debug|x64
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Debug|x64.Build.0 = Debug|x64
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Release|x64.ActiveCfg = Release|x64
+		{485E36CC-EC6D-4743-B396-F56817AEF58E}.Release|x64.Build.0 = Release|x64
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Debug|x64.Build.0 = Debug|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Release|x64.ActiveCfg = Release|Any CPU
+		{26D0ACE8-20D8-4E92-86D4-CD5510B8ACF5}.Release|x64.Build.0 = Release|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Debug|x64.Build.0 = Debug|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Release|x64.ActiveCfg = Release|Any CPU
+		{07E8083D-91BC-4370-9978-4D9E5BF4C543}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {31B38B53-6E32-442B-862A-E1261E2FBE0B}
+		SolutionGuid = {E6920523-554E-43B3-8ECE-95432B24E687}
 	EndGlobalSection
 EndGlobal
