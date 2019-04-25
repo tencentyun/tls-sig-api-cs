@@ -9,7 +9,8 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto.Signers;
 
 
-// 这里依赖了 zlib.net-mutliplatform 和 Portable.BouncyCastle 类库，使用 nuget 或者 https://www.nuget.org/ 站点手动下载
+// 这里依赖了 zlib.net-mutliplatform 和 Portable.BouncyCastle 类库，
+// 如果是采用源代码集成，请使用使用 nuget 或者 https://www.nuget.org/ 站点手动下载
 
 namespace tencentyun
 {
@@ -45,8 +46,6 @@ namespace tencentyun
             byte[] outPutByteArray = new byte[outStream.Length];
             outStream.Position = 0;
             outStream.Read(outPutByteArray, 0, outPutByteArray.Length);
-            //outStream.Close();
-            //inputStream.Close();
             return outPutByteArray;
         }
 
@@ -77,7 +76,7 @@ namespace tencentyun
         }
 
         // 默认使用 180 天有效期
-        public string GenSig(string identifier, int expireTime = 3600*24*180)
+        public string genSig(string identifier, int expireTime = 3600*24*180)
         {
             DateTime epoch = new DateTime(1970, 1, 1);
             Int64 currTime = (Int64)(DateTime.UtcNow - epoch).TotalMilliseconds/1000;

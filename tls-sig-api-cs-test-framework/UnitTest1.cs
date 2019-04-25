@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+ï»¿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using tencentyun;
 
@@ -10,8 +10,8 @@ namespace tls_sig_api_cs_test
         [TestMethod]
         public void Sign()
         {
-            // ÕâÀïË½Ô¿Ö±½ÓÊ¹ÓÃË½Ô¿ÎÄ¼şÖĞµÄ¸ñÊ½£¬
-            // ²»ÒªĞŞ¸Ä£¬·ñÔòËã·¨¿âÎŞ·¨Ê¶±ğ
+            // è¿™é‡Œç§é’¥ç›´æ¥ä½¿ç”¨ç§é’¥æ–‡ä»¶ä¸­çš„æ ¼å¼ï¼Œ
+            // ä¸è¦ä¿®æ”¹ï¼Œå¦åˆ™ç®—æ³•åº“æ— æ³•è¯†åˆ«
             string priKeyContent = @"-----BEGIN PRIVATE KEY-----
 MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgkTfHxPa8YusG+va8
 1CRztNQBOEr90TBEjlQBZ5d1Y0ChRANCAAS9isP/xLib7EZ1vS5OUy+gOsYBwees
@@ -28,8 +28,8 @@ rDzA71ok8oDwFLBmb9Txy6GtHIqrBJZDtXzBsDa8ziicdTqNfeEYvksqVQ==
         [TestMethod]
         public void LoopSign()
         {
-            // ÕâÀïË½Ô¿Ö±½ÓÊ¹ÓÃË½Ô¿ÎÄ¼şÖĞµÄ¸ñÊ½£¬
-            // ²»ÒªĞŞ¸Ä£¬·ñÔòËã·¨¿âÎŞ·¨Ê¶±ğ
+            // è¿™é‡Œç§é’¥ç›´æ¥ä½¿ç”¨ç§é’¥æ–‡ä»¶ä¸­çš„æ ¼å¼ï¼Œ
+            // ä¸è¦ä¿®æ”¹ï¼Œå¦åˆ™ç®—æ³•åº“æ— æ³•è¯†åˆ«
             string priKeyContent = @"-----BEGIN PRIVATE KEY-----
 MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgkTfHxPa8YusG+va8
 1CRztNQBOEr90TBEjlQBZ5d1Y0ChRANCAAS9isP/xLib7EZ1vS5OUy+gOsYBwees

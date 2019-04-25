@@ -5,6 +5,8 @@
     <RootNamespace>tls_sig_api_cs_test</RootNamespace>
 
     <IsPackable>false</IsPackable>
+
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
