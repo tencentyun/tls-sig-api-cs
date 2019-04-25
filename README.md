@@ -14,7 +14,7 @@ PM> Install-Package tls-sig-api
 
 
 ## 使用源代码集成
-将 `tls-sig-api-cs/TLSSigAPI.cs` 下载放置到任意需要的目录，按照 demo 中的示例代码进行调用即可。其中代码依赖了下列开发库，请进行手动安装，
+将 `tls-sig-api-cs/TLSSigAPI.cs` 下载放置到需要的目录，按照 demo 中的示例代码进行调用即可。其中代码依赖了下列开发库，请进行手动安装，
 ```
 Portable.BouncyCastle
 zlib.net-mutliplatform
